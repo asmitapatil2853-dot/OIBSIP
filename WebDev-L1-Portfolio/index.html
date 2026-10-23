@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asmita Atmaram Patil — Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="navbar">
+    <div class="container nav-wrap">
+      <a href="#home" class="logo">Asmita Patil<span>.</span></a>
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-text">
+          <span class="sub-badge">COMPUTER SCIENCE ENGINEERING</span>
+          <h1 class="hero-title">Hi, I'm <span class="highlight">Asmita Atmaram Patil</span></h1>
+          <p class="typing-text">I'm an <span id="typewriter"></span><span class="cursor">|</span></p>
+          <p class="hero-desc">
+            I enjoy building clean, user-friendly websites and exploring software technology through practical engineering projects. I'm continuously learning and improving my skills.
+          </p>
+          <div class="hero-social-links">
+            <a href="https://github.com/asmitapatil2853-dot" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/asmita-patil-2bb941390/?isSelfProfile=true" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card-frame">
+            <img src="profile-photo.jpg" alt="Asmita Atmaram Patil" class="profile-img" onerror="this.style.display='none'; document.getElementById('avatar-fallback').style.display='flex';">
+            <div id="avatar-fallback" class="avatar-placeholder" style="display:none;">
+              <span>AP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span class="kicker">GET TO KNOW ME</span>
+          <h2>About Me</h2>
+          <p class="subtitle">A little about my background and interests.</p>
+        </div>
+        <div class="card-single content-box">
+          <p>
+            I'm <strong>Asmita Atmaram Patil</strong>, a Computer Science and Engineering student at Ashokrao Mane Group of Institutions interested in web development, software engineering, and emerging technologies.
+          </p>
+          <p>
+            I like turning ideas into practical projects, learning new tools, and improving my problem-solving skills through hands-on work.
+          </p>
+          <p>
+            My current college major project is <strong>Intelligent Distributed Log Analysis and Root Cause Detection</strong>, which is in active progress.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="kicker">MY RESUME</span>
+          <h2>Curriculum Vitae</h2>
+          <p class="subtitle">Access my verified academic background, skills, and project experience.</p>
+        </div>
+
+        <div class="resume-simple-card">
+          <div class="resume-card-info">
+            <div class="resume-icon">📄</div>
+            <div>
+              <h3>Asmita Atmaram Patil — Resume</h3>
+              <p>Computer Science &amp; Engineering • Updated Academic &amp; Project Profile</p>
+            </div>
+          </div>
+          <div class="resume-btn-group">
+            <a href="resume.pdf" target="_blank" rel="noopener" class="btn btn-outline-resume">
+              View Resume ↗
+            </a>
+            <a href="resume.pdf" download="Asmita_Atmaram_Patil_Resume.pdf" class="btn btn-primary-resume">
+              Download PDF ⤓
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span class="kicker">WHAT I WORK WITH</span>
+          <h2>Skills</h2>
+          <p class="subtitle">Technologies and competencies I develop with.</p>
+        </div>
+        <div class="skills-card-grid">
+          <div class="skill-pill-card">
+            <div class="skill-icon">🌐</div>
+            <h4>HTML5</h4>
+            <p>Structuring semantic web pages</p>
+          </div>
+          <div class="skill-pill-card">
+            <div class="skill-icon">🎨</div>
+            <h4>CSS3</h4>
+            <p>Styling &amp; responsive layouts</p>
+          </div>
+          <div class="skill-pill-card">
+            <div class="skill-icon">🐍</div>
+            <h4>Python</h4>
+            <p>Programming and problem solving</p>
+          </div>
+          <div class="skill-pill-card">
+            <div class="skill-icon">🐙</div>
+            <h4>Git &amp; GitHub</h4>
+            <p>Version control and repositories</p>
+          </div>
+          <div class="skill-pill-card">
+            <div class="skill-icon">💻</div>
+            <h4>Web Development</h4>
+            <p>Building web projects</p>
+          </div>
+          <div class="skill-pill-card">
+            <div class="skill-icon">🧩</div>
+            <h4>Problem Solving</h4>
+            <p>Data structures &amp; algorithmic logic</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="kicker">SELECTED WORK</span>
+          <h2>Projects</h2>
+          <p class="subtitle">Academic and practice projects, including work in progress and repository-based projects.</p>
+        </div>
+
+        <div class="project-showcase-grid">
+          <!-- Project 1 -->
+          <div class="project-item-card">
+            <div class="proj-banner bg-banner-blue">
+              <span class="banner-icon">📊</span>
+              <span class="banner-title">DISTRIBUTED SYSTEMS</span>
+            </div>
+            <div class="proj-body">
+              <div class="card-meta-row">
+                <span class="proj-category">College Mega Project</span>
+                <span class="proj-status status-progress">In Progress</span>
+              </div>
+              <h3>Intelligent Distributed Log Analysis</h3>
+              <p>
+                An automated log-processing pipeline using Drain3 parsing and Isolation Forest anomaly detection with a FastAPI dashboard for root cause analysis.
+              </p>
+              <div class="tech-labels">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>Scikit-learn</span>
+              </div>
+              <!-- <div class="proj-footer">
+                <a href="https://github.com/asmitapatil2853-dot" target="_blank" rel="noopener" class="proj-link-github">
+                  View on GitHub ↗
+                </a>
+              </div> -->
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-item-card">
+            <div class="proj-banner bg-banner-purple">
+              <span class="banner-icon">💻</span>
+              <span class="banner-title">COLLABORATIVE WORKSPACE</span>
+            </div>
+            <div class="proj-body">
+              <div class="card-meta-row">
+                <span class="proj-category">Web / Full-Stack Project</span>
+                <span class="proj-status status-done">Project</span>
+              </div>
+              <h3>SyncBoard</h3>
+              <p>
+                A collaborative workspace for synchronizing live code edits using Flask-SocketIO and CodeMirror, featuring role-based access and revision snapshots.
+              </p>
+              <div class="tech-labels">
+                <span>Flask</span>
+                <span>SocketIO</span>
+                <span>JavaScript</span>
+                <span>SQLite</span>
+              </div>
+              <div class="proj-footer">
+                <a href="https://github.com/asmitapatil2853-dot" target="_blank" rel="noopener" class="proj-link-github">
+                  View on GitHub ↗
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-item-card">
+            <div class="proj-banner bg-banner-teal">
+              <span class="banner-icon">📡</span>
+              <span class="banner-title">IOT &amp; EMBEDDED</span>
+            </div>
+            <div class="proj-body">
+              <div class="card-meta-row">
+                <span class="proj-category">Research Project</span>
+                <span class="proj-status status-done">Published</span>
+              </div>
+              <h3>IoT-Based Home Automation</h3>
+              <p>
+                Built smart appliance remote switching using ESP32/ESP8266 and relay modules[cite: 14]. Research paper published in IJARSCT journal (April 2024).
+              </p>
+              <div class="tech-labels">
+                <span>IoT</span>
+                <span>ESP32</span>
+                <span>C++</span>
+                <span>Relays</span>
+              </div>
+              <!-- <div class="proj-footer">
+                <a href="https://github.com/asmitapatil2853-dot" target="_blank" rel="noopener" class="proj-link-github">
+                  View on GitHub ↗
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates & Achievements Section -->
+    <section id="certificates" class="section bg-alt">
+      <div class="container">
+        <div class="section-heading">
+          <span class="kicker">LEARNING &amp; ACHIEVEMENTS</span>
+          <h2>Certificates</h2>
+          <p class="subtitle">Your internship, virtual internship, and research achievements.</p>
+        </div>
+
+        <div class="cert-showcase-grid">
+          <!-- Research Paper -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">IJARSCT Journal</span>
+              <span class="score-tag">Impact Factor 7.53</span>
+            </div>
+            <h3>Research Paper Publication</h3>
+            <p>Published research paper titled "Home Automation System" in Vol. 4, Issue 3 (April 2024).</p>
+            <span class="cert-meta">DOI: 10.48175/IJARSCT-17258</span>
+            <a href="certificate-research-paper.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+
+          <!-- NPTEL Cloud -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">IIT Kharagpur (NPTEL)</span>
+              <span class="score-tag">Elite (60%)</span>
+            </div>
+            <h3>Cloud Computing</h3>
+            <p>12-week NPTEL Online Certification funded by MoE, Govt. of India.</p>
+            <span class="cert-meta">Jan - Apr 2026 (4 Credits)</span>
+            <a href="certificate-nptel-cloud.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+
+          <!-- NPTEL ML -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">IIT Kharagpur (NPTEL)</span>
+              <span class="score-tag">Elite (65%)</span>
+            </div>
+            <h3>Introduction to Machine Learning</h3>
+            <p>8-week course covering foundational classification, regression, and kernel models.</p>
+            <span class="cert-meta">Jul - Sep 2025</span>
+            <a href="certificate-nptel-ml.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+
+          <!-- AICTE DSA -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">AICTE - EduSkills</span>
+              <span class="score-tag">Virtual Internship</span>
+            </div>
+            <h3>DSA in C++ Virtual Internship</h3>
+            <p>8-week virtual internship focused on core structures and algorithm design.</p>
+            <span class="cert-meta">Aug - Oct 2026</span>
+            <a href="certificate-aicte-dsa.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+
+          <!-- AICTE AI-ML -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">Google &amp; AICTE - EduSkills</span>
+              <span class="score-tag">10 Weeks</span>
+            </div>
+            <h3>AI-ML Virtual Internship</h3>
+            <p>10-week virtual internship supported by Google for Developers India Edu Program.</p>
+            <span class="cert-meta">Jul - Sep 2025</span>
+            <a href="certificate-aicte-aiml.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+
+          <!-- Java Full Stack -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">EduSkills Academy</span>
+              <span class="score-tag">Certified</span>
+            </div>
+            <h3>Java Full Stack Development</h3>
+            <p>Certificate of completion for enterprise Java development training.</p>
+            <span class="cert-meta">C. No: 530186 (Dec 2025)</span>
+            <a href="certificate-java-fullstack.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+
+          <!-- Google Gemini -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">Google for Education</span>
+              <span class="score-tag">Certified</span>
+            </div>
+            <h3>Gemini Certified Student</h3>
+            <p>Qualification awarded for demonstrating competencies needed to use Google AI.</p>
+            <span class="cert-meta">Valid through Sep 2029</span>
+            <a href="certificate-google-gemini.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+
+          <!-- AWS Academy -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">AWS Academy</span>
+              <span class="score-tag">Graduate</span>
+            </div>
+            <h3>Generative AI Foundations</h3>
+            <p>12-hour training badge exploring AWS foundational generative AI architectures.</p>
+            <span class="cert-meta">Issued May 2026</span>
+            <a href="certificate-aws-genai.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+
+          <!-- GFG Workshop -->
+          <div class="cert-item-card">
+            <div class="cert-top">
+              <span class="org-tag">GeeksforGeeks &amp; Google</span>
+              <span class="score-tag">Workshop</span>
+            </div>
+            <h3>Build with AI Agent Builder Camp</h3>
+            <p>Participation certificate in practical autonomous agent design workflows.</p>
+            <span class="cert-meta">Issued May 2026</span>
+            <a href="certificate-gfg-ai-camp.pdf" target="_blank" class="cert-link">View certificate ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="kicker">LET'S CONNECT</span>
+          <h2>Contact Me</h2>
+          <p class="subtitle">Feel free to reach out for opportunities, collaborations, or project discussions.</p>
+        </div>
+        <div class="contact-grid-boxes">
+          <div class="contact-card">
+            <span class="label">EMAIL</span>
+            <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="_blank" rel="noopener" class="val-link">
+                asmitapatil2853@gmail.com
+            </a>
+          </div>
+          <div class="contact-card">
+            <span class="label">PHONE</span>
+            <a href="tel:+917249791648" class="val-link">+91 7249791648</a>
+          </div>
+          <div class="contact-card">
+            <span class="label">LINKEDIN</span>
+            <a href="https://www.linkedin.com/in/asmita-patil-2bb941390/?isSelfProfile=true" target="_blank" class="val-link">View Profile ↗</a>
+          </div>
+          <div class="contact-card">
+            <span class="label">GITHUB</span>
+            <a href="https://github.com/asmitapatil2853-dot" target="_blank" class="val-link">View Profile ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-bar">
+      <p>&copy; 2026 Asmita Atmaram Patil</p>
+      <p>Built with HTML &amp; CSS</p>
+    </div>
+  </footer>
+
+  <!-- Script for Theme Toggle & Typewriter Effect -->
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+
+    toggleBtn.addEventListener('click', () => {
+      const currentTheme = root.getAttribute('data-theme');
+      const targetTheme = currentTheme === 'light' ? 'dark' : 'light';
+      root.setAttribute('data-theme', targetTheme);
+      toggleBtn.textContent = targetTheme === 'light' ? '🌙' : '☀️';
+    });
+
+    const words = ["Aspiring Web Developer", "Tech Enthusiast", "Problem Solver"];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    const typewriterElem = document.getElementById("typewriter");
+
+    function type() {
+      const currentWord = words[wordIndex];
+      if (isDeleting) {
+        typewriterElem.textContent = currentWord.substring(0, charIndex - 1);
+        charIndex--;
+      } else {
+        typewriterElem.textContent = currentWord.substring(0, charIndex + 1);
+        charIndex++;
+      }
+
+      let speed = isDeleting ? 40 : 85;
+      if (!isDeleting && charIndex === currentWord.length) {
+        speed = 1800;
+        isDeleting = true;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        wordIndex = (wordIndex + 1) % words.length;
+        speed = 400;
+      }
+      setTimeout(type, speed);
+    }
+    document.addEventListener("DOMContentLoaded", type);
+  </script>
+</body>
+</html>
